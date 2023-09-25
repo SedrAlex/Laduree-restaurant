@@ -1,0 +1,27 @@
+.newArrival__container{
+    overflow: hidden;
+    width: 100%;
+    background-image: url('../../assets/images/bg1.jpg');
+    background-size:contain ;
+    background-repeat: repeat-x;
+}
+.headline{
+    z-index: 100;
+    font-size: 100px;
+    font-family: 'Bigilla';
+    color: rgba(229, 145, 1, 0.354);
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: -5px;
+    font-weight: lighter;
+    transition: 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.headline:hover{
+    transition: 1s ease-in-out;
+    color: rgb(229, 145, 195);	
+  }

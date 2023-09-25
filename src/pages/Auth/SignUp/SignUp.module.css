@@ -1,0 +1,131 @@
+.Styled__Button{
+    background:  linear-gradient(to right, #edd487 0%,#d9ab20 79%);    text-transform: uppercase;
+    width:65%;
+    letter-spacing: 0.2rem;
+    height:3rem ;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    transition: 0.1s;
+    caret-color: transparent;
+    cursor: pointer;
+}
+.Styled__Button:active{
+        height: 3rem;
+        width: 66%;
+    }
+
+.main__container{
+     background-image: url('../../../assets/signin.jpeg');
+     display:flex ;
+     width: 100%;
+     height:100vh;
+     background-size:cover;
+     justify-content:center;
+     background-repeat: no-repeat;
+     align-items: center;
+     caret-color: transparent;
+}
+.Glass__effect{
+ display:flex;
+ align-items:center;
+ flex-direction: column;
+ height: 70vh;
+ width:30vw ;
+ background: rgba((255), 255, 255, 0.25);
+ box-shadow: 0 8px 32px 0 #9d696d;
+ backdrop-filter:blur(8.5px);
+ border-radius: 10px;
+ color : #fff;
+ text-transform: uppercase;
+ letter-spacing: 0.4rem;
+}
+
+.Initial__Text{
+    margin: 2rem 0 0rem  0;
+    font-size: 1.1rem;
+    color: #d9ab20;
+    text-decoration: dashed;
+    
+    
+}
+.Input__Container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-around;
+   caret-color: gray;
+   height: 70%;
+   width: 100%; 
+ caret-color: transparent;
+
+}
+.Styled__Input{
+    background: rgba(255, 255, 255, 0.22);;
+    box-shadow: 0 8px 32px 0 #9d696d;
+    border-radius: 2rem;
+    width: 90%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+ .Styled__Input:focus{
+        background: #ebe3e3cf;;
+        display: inline-block;
+        box-shadow: 0 8px 32px 0 rgba(222, 187, 9, 0.856);
+        backdrop-filter: blur(19rem);
+        border-radius: 2rem;
+    }
+
+.Styled__Input::placeholder{
+      color: #eda90bc7;
+      font-weight: 400;
+      font-size: 1rem;
+      padding-left: 0.5rem;
+    }
+.Button__Container{
+    margin: 0 2rem 0;
+    width: 100%;
+    caret-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    }
+    .icon{
+        position:absolute;
+        bottom: 17.9rem;
+        right: 50px;
+        cursor: pointer;
+        color: #bc3381;
+      font-size: larger; 
+    }
+.icon_2{
+    position:absolute;
+    bottom: 11.0rem;
+    right: 50px;
+    cursor: pointer;
+    color: #bc3381;
+   font-size: larger; 
+    }
+    .register
+    {
+        font-size: 1.0rem;
+        color: #bc3381;
+        text-decoration: underline;
+        padding-left: 0;
+        padding-top: 1.0px;
+        padding-left: 1px;
+    }
+    .account
+{
+    font-size: 0.7rem;
+    color: #ddd5c5;
+    text-decoration: wavy;
+    padding-top: 0.5px;
+    padding-left: 1px;
+}

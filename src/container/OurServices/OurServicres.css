@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amita:400,700|Open+Sans:300,400,600,700,800|Poppins:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900&display=swap');
+.OurService__Container{
+    background-image: url('../../assets/images/service1.jpeg');
+    background-color: #F9F0E7;
+    background-size: contain;
+    background-position: right ;
+    background-repeat: no-repeat
+}
+.single__feature {
+    margin-right: 70px;
+padding-left: 10px;
+}
+.single__feature span{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5rem;
+    
+}
+.single__feature span img{
+    display: flex;
+    align-items: center;
+justify-content: center;
+padding-left: 0.8rem;
+padding-bottom: 0.5rem;
+
+
+}
+.single__feature p{
+    color: rgb(136, 98, 7);
+}
+
+.service__content h4{
+    color:rgb(221, 67, 159) ; 
+    font-size: 42px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Amita';
+
+}
+.service__content p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding-top: 0;
+    font-weight: 500;
+    color: #aaaaaa;
+    font-size: 18px;
+    display: block;
+ 
+}
+
+.single__feature h6{
+    color: rgb(241, 203, 114);
+    margin-bottom: 0;
+}
+.single__feature p{
+   
+}

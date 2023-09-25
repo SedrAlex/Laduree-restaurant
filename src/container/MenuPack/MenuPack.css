@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amita:400,700|Open+Sans:300,400,600,700,800|Poppins:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900&display=swap');
+.Menupack__Cotainer{
+ background-color:  rgba(202, 225, 229, 0.565);;
+ background-image: url('../../assets//images/bg1.jpg');
+ background-size:contain ;
+ background-repeat: repeat-y;
+}
+.menu__btn img{
+width: 50px;
+height: 50px;
+}
+.menu__btn {
+ background: transparent;
+ border: 1px solid rgb(221, 67, 159) ;
+ padding: 7px 25px;
+ margin-left: 15px;
+ border-radius: 50px;
+ cursor: pointer;
+}
+.menu__title{
+color:rgb(221, 67, 159) ; 
+font-size: 42px;
+line-height: 62px;
+font-weight: 700;
+margin-bottom: 0;
+font-family: 'Amita';
+text-transform: uppercase;
+}
+.active__btn {
+ background-color: #F9F0E7;
+ box-shadow: 0px 10px 10px 0 rgb(229, 145, 195);	
+
+
+}
+
+
